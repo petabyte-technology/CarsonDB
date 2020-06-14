@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>CarsonDB</id>
+    <version>1.1.4</version>
+    <title>CarsonDB</title>
+    <authors>Grant Teakell, Petabyte Technology</authors>
+    <owners>Petabyte Technology</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/petabyte-technology/CarsonDB</projectUrl>
+    <description>CarsonDB Veterinary Database Library</description>
+    <releaseNotes>Forked from CarsonDB 1.1.2; updated to work with CarsonLib 1.1.4</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+  </metadata>
+  <files>
+	<file src="build/CarsonDB.targets" target="build" />
+	<file src="bin/x86/Release/CarsonLib.DLL" target="build" />  
+	<file src="bin/x86/Release/CarsonLib.txt" target="content" />  
+    <file src="bin/x86/Release/CarsonLib.DLL" target="content" />
+    <file src="obj/x86/Release/CarsonDB.dll" target="lib\net452" />
+  </files>
+</package>
